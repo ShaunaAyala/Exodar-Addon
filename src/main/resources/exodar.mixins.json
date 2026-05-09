@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.exodar.addon.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "EntityMovementMixin",
+    "KeyboardInputMixin",
+    "LivingEntityMixin",
+    "MinecraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
