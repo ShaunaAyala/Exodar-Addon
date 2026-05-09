@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled output
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Loom run dir
+run/

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "exodar",
+  "version": "${version}",
+  "name": "Exodar",
+  "description": "Exodar — Meteor Client addon.",
+  "authors": [
+    "shauna"
+  ],
+  "contact": {
+    "sources": "https://github.com/ShaunaAyala/Exodar-Addon"
+  },
+  "icon": "assets/exodar/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.exodar.addon.ExodarAddon"
+    ]
+  },
+  "mixins": [
+    "exodar.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "160,32,240",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=${jdk_version}",
+    "minecraft": "~26.1",
+    "meteor-client": "*"
+  }
+}
